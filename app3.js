@@ -36,9 +36,9 @@ function CounterController($scope) {
 
 
   $scope.$watch('count', function (New_Value, Old_Value) {
-      console.log("\ncount Old Value :", Old_Value );
+      console.log("\n count Old Value :", Old_Value );
       console.log("count New Value :", New_Value );
-  })
+  });
 
 
 
